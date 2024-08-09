@@ -1,0 +1,54 @@
+<!-- admin-panel.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .logo h1 {
+        font-size: 24px;
+        margin: 0;
+        color: #0ff;
+        text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+        animation: colorChange 5s infinite alternate;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: #0ff;
+        }
+
+        50% {
+            color: #f0f;
+        }
+
+        100% {
+            color: #ff0;
+        }
+    }
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h1>TouchWood World</h1>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="blog-grid.html">Blog Posts</a></li>
+                <li><a href="single-blog.html">Add Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Content will go here -->
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+</body>
+</html>
